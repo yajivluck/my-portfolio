@@ -1,38 +1,44 @@
+
+body{
+  background-color: #1e1e1e;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .App {
   text-align: center;
+  color: whitesmoke;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 35px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.desc1 {
+ 
+  font-size:  24px;
+  
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.desc2 {
+ 
+  font-size:  24px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+
+.mascot {
+  max-width: 500px;
+  max-height: 500px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wellness{
+  max-width: 230px;
+  max-height: 300px;
+ 
+  
+
 }
